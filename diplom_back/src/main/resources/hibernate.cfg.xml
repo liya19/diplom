@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="ru.itis.diplom.domain.Application"/>
+        <mapping class="ru.itis.diplom.domain.DocumentKind"/>
+        <mapping class="ru.itis.diplom.domain.Category"/>
+        <mapping class="ru.itis.diplom.domain.Person"/>
+        <mapping class="ru.itis.diplom.domain.BudgetInfo"/>
+    </session-factory>
+</hibernate-configuration>
